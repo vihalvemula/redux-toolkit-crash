@@ -1,0 +1,97 @@
+.todoList {
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li label {
+  color: rgb(255, 255, 255);
+  word-wrap: break-word;
+}
+
+.todoList h1 {
+  color: rgb(255, 255, 255);
+}
+
+.todoList button {
+  background-color: rgb(113, 145, 238);
+  height: 47px;
+  width: 140px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: 2px rgb(113, 145, 238) solid;
+}
+
+.todoListInput {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 30%;
+  min-height: 85px;
+}
+
+.todoListForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.todoListForm span {
+  color: red !important;
+  margin: 2% 2%;
+}
+
+.todoList input {
+  height: 40px;
+  width: 400px;
+  margin: 0% 1%;
+  border: 2px rgb(113, 145, 238) solid;
+  background-color: rgb(24, 29, 45);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.todoList input:focus {
+  border: 2px rgb(113, 145, 238) solid;
+  background-color: rgb(24, 29, 45);
+  color: rgb(255, 255, 255);
+}
+
+.todoList input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.todoListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255) !important;
+}
+
+.todoList ul {
+  width: 70%;
+  height: 100%;
+}
+
+.todoListItem ul li {
+  background-color: rgb(43, 38, 38) !important;
+  color: rgb(255, 255, 255) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+  text-align: initial;
+}
+
+.todoListItem button {
+  background-color: rgb(233, 90, 90) !important;
+  border: 2px rgb(233, 90, 90) solid;
+  border-radius: 5px;
+  color: rgb(255, 255, 255) !important;
+  height: 47px;
+  min-width: 140px;
+  margin: 0 3%;
+}
